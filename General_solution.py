@@ -26,9 +26,9 @@ def sol(a):
 
 
     fig = plt.figure(figsize = (8,8))
-    plt.plot(t, Y(t, w, v[:,0]), label = "x")
-    plt.plot(t, Y(t, w, v[:,1]), label = "y")
-    plt.plot(t, Y(t, w, v[:,2]), label = "z")
+    plt.plot(t, Y(t, w, v[:,0]), label = "x(t)")
+    plt.plot(t, Y(t, w, v[:,1]), label = "y(t)")
+    plt.plot(t, Y(t, w, v[:,2]), label = "z(t)")
     plt.legend()
     plt.show()
 
